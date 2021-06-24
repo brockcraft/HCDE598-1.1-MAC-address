@@ -1,4 +1,4 @@
-//Find the MAC address and other stuff regarding your esp8266
+//Find the MAC address and other stuff regarding your esp32
 
 // brc 2020 added added compile time info
 // updated for ESP32
