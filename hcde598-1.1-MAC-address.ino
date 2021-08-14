@@ -1,9 +1,9 @@
-//Find the MAC address and other stuff regarding your esp32
+//Find the MAC address and other stuff regarding your esp32/esp8266
 
 // brc 2020 added added compile time info
 // updated for ESP32
 
-#include "WiFi.h"        // Use this line for ESP32
+#include "WiFi.h"          // Use this line for ESP32
 //#include <ESP8266WiFi.h> // Use this line for ESP8266
 
 String s;
