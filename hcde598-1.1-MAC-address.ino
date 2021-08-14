@@ -9,7 +9,7 @@
 String s;
 
 void setup() {
-  pinMode(0, OUTPUT); // sets up the LED to blink
+  pinMode(LED_BUILTIN, OUTPUT); // sets up the LED to blink
   Serial.begin(115200);
   Serial.println(""); // This line won't be printed
   
@@ -45,9 +45,9 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(0, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   delay(500);
-  digitalWrite(0, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(500);
 
 }
